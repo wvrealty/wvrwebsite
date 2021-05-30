@@ -1,0 +1,336 @@
+@include media-xs {
+  #hero, #hero .carousel-item {
+    height: 100vh;
+  }
+
+  #hero .carousel-content.container {
+    padding: 0 55px;
+  }
+
+  #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {        
+    font-size: 30px;        
+  }
+      
+  #hero h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .intro-subtitle.intro-price {
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .price-a {    
+    padding: 12px;        
+  }
+
+  .faq {
+    padding: 80px 0;
+  }
+
+  .faq .faq-list .question {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .herosub {
+    height: 89vh;
+  }
+
+  .herosub h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .herosub h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #properties {
+    margin-top: 0;
+  }
+
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }   
+}
+
+
+
+@include media-sm {
+  #hero .carousel-content.container {
+    padding: 0 65px;
+  }
+
+  #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {        
+    font-size: 35px;        
+  }
+  
+  #hero h2 {
+    font-size: 26px;
+    line-height: 27px;
+  }
+
+  .intro-subtitle.intro-price {
+    padding-top: 8px;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  .price-a {    
+    padding: 14px;        
+  }
+
+
+  .faq {
+    padding: 90px 0;
+  }
+
+  .herosub {
+    height: 54vh;
+  }
+
+  .portfolio .portfolio-item .portfolio-info {
+    padding: 1.2rem;
+    height: 100%;
+  }
+  
+  .portfolio .portfolio-item .portfolio-info h4 {
+    font-size: 20px;
+    line-height: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+  
+}
+
+
+
+@include media-md {
+  #hero .carousel-content.container {
+    padding: 0 70px;
+  }
+
+  #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {        
+    font-size: 38px;        
+  }
+
+  #hero h2 {
+    font-size: 28px;
+    line-height: 29px;
+  }
+
+  .intro-subtitle.intro-price {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .price-a {    
+    padding: 14px;        
+  }
+}
+
+
+
+@include media-lg {
+  #hero .carousel-content.container {
+    padding: 0 80px;
+  }
+
+  #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {        
+    font-size: 40px;        
+  }
+
+  #hero h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .intro-subtitle.intro-price {
+    padding-top: 12px;
+    font-size: 27px;
+    font-weight: 400;
+  }
+
+  #hero p {
+    width: 50%;
+  }
+
+  #hero .carousel-control-prev, #hero .carousel-control-next {
+    width: 5%;
+  }
+
+  .herosub {
+    height: 58vh;
+  }
+
+}
+
+@include media-xl {
+  #hero .carousel-content.container {
+    padding: 0 65px;
+  }
+
+  #hero h2 {
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  .intro-subtitle.intro-price {
+    padding-top: 12px;
+    font-size: 30px;
+  }
+
+  .price-a {    
+    padding: 15px;        
+  }
+
+  .herosub {
+    height: 80vh;
+  }
+
+}
+
+@include media-xxl {
+  #hero .carousel-content.container {
+    padding: 0 45px;
+  }
+
+  #hero h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .intro-subtitle.intro-price {
+    padding-top: 14px;
+    font-size: 30px;
+  }
+
+  .price-a {    
+    padding: 15px;        
+  }
+
+}
+  
+  /*@media (max-height: 500px) {
+    #hero, #hero .carousel-item {
+      height: 120vh;
+    }
+  }
+  
+  @media (min-width: 576px) { 
+   .intro-subtitle.intro-price {
+   font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+    #hero h2 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+
+    #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {        
+        font-size: 38px;        
+      }
+
+      .intro-subtitle {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+      
+      .intro-subtitle.intro-price {
+        padding-top: .2rem;
+        font-size: 1rem;
+      }
+    
+      .price-a {
+        color: #ffffff;
+        padding: .5rem 1rem;        
+      }
+  }
+  
+  @media (max-width: 992px) {
+    #hero, #hero .carousel-item {
+      height: calc(100vh - 70px);
+    }
+    #hero .carousel-content.container {
+      padding: 0 50px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .intro-subtitle {
+      font-size: 2.5rem;
+    }
+
+    .intro-subtitle.intro-price {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+      }
+  }
+  
+  @media (min-width: 992px) {
+    .intro-subtitle.intro-price {
+      padding-top: 2.2rem;
+    }
+  }
+
+   @media (min-width: 1024px) {
+    #hero p {
+      width: 60%;
+    }
+    #hero .carousel-control-prev, #hero .carousel-control-next {
+      width: 5%;
+    }
+  }
+
+@media (max-width: 992px) {
+  .herosub {
+    height: calc(100vh - 70px);
+  }
+}
+
+@media (max-width: 768px) {
+  .herosub h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .herosub h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
+*/
+  
+
+
+
+
+  
+  
