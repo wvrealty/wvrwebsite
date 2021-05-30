@@ -1,0 +1,220 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#herosub-bx {
+  background: url("../img/heros/hero-bg-bx-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-bk {
+  background: url("../img/heros/hero-bg-bk-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-qn {
+  background: url("../img/heros/hero-bg-qn-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-rv {
+  background: url("../img/heros/hero-bg-rv-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-ny {
+  background: url("../img/heros/hero-bg-ny-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-vd {
+  background: url("../img/heros/hero-bg-vd-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-sp {
+  background: url("../img/heros/hero-bg-sp-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-pv {
+  background: url("../img/heros/hero-bg-pv.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-apply {
+  background: url("../img/heros/hero-bg-apply.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-pay {
+  background: url("../img/heros/hero-bg-pay.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-owner {
+  background: url("../img/heros/hero-bg-owner.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-terms {
+  background: url("../img/heros/hero-bg-terms.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-privacy {
+  background: url("../img/heros/hero-bg-privacy.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-housing {
+  background: url("../img/heros/hero-bg-housing.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosub-disclaimer {
+  background: url("../img/heros/hero-bg-disclaimer.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.herosub {
+    width: 100%;
+    height: 80vh;    
+    padding: 0;
+  }
+
+  
+  .herosub:before {
+    content: "";
+    background: rgba(56, 64, 70, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .herosub .container {
+    z-index: 2;
+  }
+  
+  .herosub h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+  .herosub h1 span {
+    border-bottom: 4px solid #3498db;
+  }
+  
+  .herosub h2 {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .herosub .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    background: #3498db;
+    text-transform: uppercase;
+  }
+  
+  .herosub .btn-get-started:hover {
+    background: #4ea5e0;
+  }
+  
+
+  /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+    padding: 15px 0;
+    background-color: $primary-color-medium;
+    color: $color-white-light;
+    min-height: 40px;
+  }
+  
+  .breadcrumbs h2 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breadcrumbs ol li + li {
+    padding-left: 10px;
+  }
+  
+  .breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: $color-white-light;
+    content: "/";
+  }
+
+  .breadcrumbs a {
+    color: $primary-color-dark;
+  }
+
+  /*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features ul li {
+  padding-bottom: 10px;
+}
+
+.features ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #68A4C4;
+}
+
+.features ul ul li {
+  padding-left: 25px;
+}
+
+.features p:last-child {
+  margin-bottom: 0;
+}

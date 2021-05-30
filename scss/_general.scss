@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-- Body Reset --*/
+body {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    color: $text-color-normal;
+    overflow-x: hidden;
+    height: 100%;  
+    background-color: $color-white;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.general-links {
+    a {
+        text-decoration: none;
+        color: $primary-color-dark;
+    }
+    
+}
+
+.general-links a:hover {
+    text-decoration: underline;
+    color: $secondary-color-light;
+}

@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+# Service Details
+--------------------------------------------------------------*/
+.service-details {
+    padding-bottom: 5px;
+  }
+  
+  .service-details .card {
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 40px;
+    position: relative;
+    background-color: #f7fbfe;;
+  }
+  
+  .service-details .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+  }
+  
+  .service-details .card-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .service-details .card-body {
+    z-index: 10;
+    background: #fff;
+    border-top: 4px solid #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    transition: 0.3s;
+  }
+  
+  .service-details .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-details .card-title a {
+    color: $primary-color-dark;
+    transition: 0.3s;
+  }
+  
+  .service-details .card-text {
+    color: $text-color-normal;
+  }
+  
+  .service-details .read-more a {
+    color: $primary-color-dark;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+  
+  .service-details .read-more a:hover {
+    color: $secondary-color-light;
+  }
+  
+  .service-details .card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .service-details .card:hover .card-body {
+    border-color: $primary-color-medium;
+  }
+  
+  .service-details .card:hover .card-body .card-title a {
+    color: $primary-color-medium;
+  }
+  
