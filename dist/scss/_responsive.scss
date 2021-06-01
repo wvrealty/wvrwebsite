@@ -57,14 +57,30 @@
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }   
-}
 
+  .portfolio .portfolio-item .portfolio-info {
+    height: 100%;
+
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  .portfolio .portfolio-item .portfolio-info h4 {
+    font-size: 20px;
+    line-height: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+}
 
 
 @include media-sm {
@@ -101,8 +117,11 @@
   }
 
   .portfolio .portfolio-item .portfolio-info {
-    padding: 1.2rem;
     height: 100%;
+
+    p {
+      font-size: .9rem;
+    }
   }
   
   .portfolio .portfolio-item .portfolio-info h4 {
